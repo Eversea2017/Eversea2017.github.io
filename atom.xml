@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-05T14:42:04.456Z</updated>
+  <updated>2018-03-05T15:19:13.871Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,30 +17,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>memory</title>
-    <link href="http://yoursite.com/2018/03/06/memory-1/"/>
-    <id>http://yoursite.com/2018/03/06/memory-1/</id>
-    <published>2018-03-05T22:16:43.000Z</published>
-    <updated>2018-03-05T14:42:04.456Z</updated>
+    <title>hexo 博客常用操作</title>
+    <link href="http://yoursite.com/2018/03/06/hexo-%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/"/>
+    <id>http://yoursite.com/2018/03/06/hexo-博客常用操作/</id>
+    <published>2018-03-05T22:55:29.000Z</published>
+    <updated>2018-03-05T15:19:13.871Z</updated>
     
-    <content type="html"><![CDATA[<p>关关雎鸠，在河之洲。窈窕淑女，君子好逑。</p><p>参差荇萍，左右流之。窈窕淑女，寤寐求之。</p><p>求之不得，寤寐思服。悠哉悠哉，辗转反侧。</p><p>参差荇萍，左右采之。窈窕淑女，琴瑟友之。</p><p>参差荇萍，左右□之。窈窕淑女，钟鼓乐之。</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="写博客插入图片"><a href="#写博客插入图片" class="headerlink" title="写博客插入图片"></a>写博客插入图片</h3><p>打开站点配置文件_config.yml，找到post_asset_folder，将其值改为true，如下所示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: <span class="literal">true</span></span><br></pre></td></tr></table></figure></p><p>创建博客使用命令创建</p><pre><code class="bash">$ hexo new [layout] &lt;title&gt;</code></pre><p>其中的layout可以省略，例如</p><pre><code class="bash">$ hexo new  <span class="string">"test"</span></code></pre><p>使用命令创建之后，在source/_post文件夹里面就会出现一个”test”的文件和一个”test”的文件夹，然后把图片放进这个文件夹中，采用如下命令引用图片</p><pre><code class="bash">{% asset_img 引用图片.jpg 引用图片 %}</code></pre><p>效果如下<br><img src="/2018/03/06/hexo-博客常用操作/引用图片.jpg" title="引用图片"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;关关雎鸠，在河之洲。窈窕淑女，君子好逑。&lt;/p&gt;
-&lt;p&gt;参差荇萍，左右流之。窈窕淑女，寤寐求之。&lt;/p&gt;
-&lt;p&gt;求之不得，寤寐思服。悠哉悠哉，辗转反侧。&lt;/p&gt;
-&lt;p&gt;参差荇萍，左右采之。窈窕淑女，琴瑟友之。&lt;/p&gt;
-&lt;p&gt;参差荇萍，左右□之。窈窕淑女，钟鼓乐之。&lt;/p&gt;
-
+        &lt;h3 id=&quot;写博客插入图片&quot;&gt;&lt;a href=&quot;#写博客插入图片&quot; class=&quot;headerlink&quot; title=&quot;写博客插入图片&quot;&gt;&lt;/a&gt;写博客插入图片&lt;/h3&gt;&lt;p&gt;打开站点配置文件_config.yml，找到post_asset_folder，将其值改为true，
       
     
     </summary>
     
-    
-      <category term="最爱" scheme="http://yoursite.com/tags/%E6%9C%80%E7%88%B1/"/>
     
   </entry>
   
@@ -49,9 +42,9 @@
     <link href="http://yoursite.com/2018/03/06/memory/"/>
     <id>http://yoursite.com/2018/03/06/memory/</id>
     <published>2018-03-05T22:16:43.000Z</published>
-    <updated>2018-03-05T14:37:18.119Z</updated>
+    <updated>2018-03-05T15:22:09.165Z</updated>
     
-    <content type="html"><![CDATA[<p>关关雎鸠，在河之洲。窈窕淑女，君子好逑。</p><p>参差荇萍，左右流之。窈窕淑女，寤寐求之。</p><p>求之不得，寤寐思服。悠哉悠哉，辗转反侧。</p><p>参差荇萍，左右采之。窈窕淑女，琴瑟友之。</p><p>参差荇萍，左右□之。窈窕淑女，钟鼓乐之。</p><img src="/2018/03/06/memory/1.jpg" title="这是一个新的博客的图片的说明"><img src="/2018/03/06/memory/2.jpg" title="这是一个新的博客的图片的说明"><img src="/2018/03/06/memory/3.jpg" title="这是一个新的博客的图片的说明"><img src="/2018/03/06/memory/4.jpg" title="这是一个新的博客的图片的说明"><img src="/2018/03/06/memory/5.jpg" title="这是一个新的博客的图片的说明"><img src="/2018/03/06/memory/6.jpg" title="这是一个新的博客的图片的说明"><img src="/2018/03/06/memory/7.jpg" title="这是一个新的博客的图片的说明"><img src="/2018/03/06/memory/8.jpg" title="这是一个新的博客的图片的说明">]]></content>
+    <content type="html"><![CDATA[<p>关关雎鸠，在河之洲。窈窕淑女，君子好逑。</p><p>参差荇萍，左右流之。窈窕淑女，寤寐求之。</p><p>求之不得，寤寐思服。悠哉悠哉，辗转反侧。</p><p>参差荇萍，左右采之。窈窕淑女，琴瑟友之。</p><p>参差荇萍，左右芼之。窈窕淑女，钟鼓乐之。</p><img src="/2018/03/06/memory/1.jpg" title="My Best Love"><img src="/2018/03/06/memory/2.jpg" title="My Best Love"><img src="/2018/03/06/memory/3.jpg" title="My Best Love"><img src="/2018/03/06/memory/4.jpg" title="My Best Love"><img src="/2018/03/06/memory/5.jpg" title="My Best Love"><img src="/2018/03/06/memory/6.jpg" title="My Best Love"><img src="/2018/03/06/memory/7.jpg" title="My Best Love"><img src="/2018/03/06/memory/8.jpg" title="My Best Love">]]></content>
     
     <summary type="html">
     
@@ -61,7 +54,7 @@
 &lt;p&gt;参差荇萍，左右流之。窈窕淑女，寤寐求之。&lt;/p&gt;
 &lt;p&gt;求之不得，寤寐思服。悠哉悠哉，辗转反侧。&lt;/p&gt;
 &lt;p&gt;参差荇萍，左右采之。窈窕淑女，琴瑟友之。&lt;/p&gt;
-&lt;p&gt;参差荇萍，左右□之。窈窕淑女，钟鼓乐之。&lt;/p&gt;
+&lt;p&gt;参差荇萍，左右芼之。窈窕淑女，钟鼓乐之。&lt;/p&gt;
 
       
     
@@ -126,9 +119,9 @@
     <link href="http://yoursite.com/2018/02/15/hello-world/"/>
     <id>http://yoursite.com/2018/02/15/hello-world/</id>
     <published>2018-02-15T05:51:30.084Z</published>
-    <updated>2018-02-15T05:51:30.085Z</updated>
+    <updated>2018-03-05T15:14:05.938Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br><span class="line">```                                                                           </span><br><span class="line"></span><br><span class="line">More info: [Writing](https://hexo.io/docs/writing.html)</span><br><span class="line"></span><br><span class="line"><span class="comment">### Run server</span></span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
     <summary type="html">
     

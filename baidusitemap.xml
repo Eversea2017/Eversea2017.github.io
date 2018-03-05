@@ -4,8 +4,8 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/03/06/memory-1/</loc>
-    <lastmod>2018-03-05T14:42:04.456Z</lastmod>
+    <loc>http://yoursite.com/2018/03/06/memory/</loc>
+    <lastmod>2018-03-05T15:22:09.165Z</lastmod>
     <data>
         <display>
         <title>memory</title>
@@ -21,15 +21,28 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/03/06/memory/</loc>
-    <lastmod>2018-03-05T14:37:18.119Z</lastmod>
+    <loc>http://yoursite.com/2018/03/06/hexo-%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2018-03-05T15:19:13.871Z</lastmod>
     <data>
         <display>
-        <title>memory</title>
-        <pubTime>2018-03-05T22:16:43.000Z</pubTime>
+        <title>hexo 博客常用操作</title>
+        <pubTime>2018-03-05T22:55:29.000Z</pubTime>
         
-        <tag>最爱</tag>
          
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/02/15/hello-world/</loc>
+    <lastmod>2018-03-05T15:14:05.938Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-02-15T05:51:30.084Z</pubTime>
+        
          
            
         </display>
@@ -71,19 +84,4 @@
     
     
     
-    
-  <url>
-    <loc>http://yoursite.com/2018/02/15/hello-world/</loc>
-    <lastmod>2018-02-15T05:51:30.085Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-02-15T05:51:30.084Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>

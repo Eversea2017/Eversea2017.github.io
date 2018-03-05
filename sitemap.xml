@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/03/06/memory-1/</loc>
+    <loc>http://yoursite.com/2018/03/06/memory/</loc>
     
-    <lastmod>2018-03-05T14:42:04.456Z</lastmod>
+    <lastmod>2018-03-05T15:22:09.165Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/03/06/memory/</loc>
+    <loc>http://yoursite.com/2018/03/06/hexo-%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</loc>
     
-    <lastmod>2018-03-05T14:37:18.119Z</lastmod>
+    <lastmod>2018-03-05T15:19:13.871Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/02/15/hello-world/</loc>
+    
+    <lastmod>2018-03-05T15:14:05.938Z</lastmod>
     
   </url>
   
@@ -47,13 +54,6 @@
     <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2018-02-15T12:01:43.163Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/02/15/hello-world/</loc>
-    
-    <lastmod>2018-02-15T05:51:30.085Z</lastmod>
     
   </url>
   
