@@ -14,14 +14,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[memory]]></title>
-    <url>%2F2018%2F03%2F05%2Fhello-world%20-%20%E5%89%AF%E6%9C%AC%20(2)%2F</url>
-    <content type="text"><![CDATA[关关雎鸠，在河之洲。窈窕淑女，君子好逑。 参差荇萍，左右流之。窈窕淑女，寤寐求之。 求之不得，寤寐思服。悠哉悠哉，辗转反侧。 参差荇萍，左右采之。窈窕淑女，琴瑟友之。 参差荇萍，左右□之。窈窕淑女，钟鼓乐之。 /img/1.jpg]]></content>
-      <tags>
-        <tag>最爱</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Python运算符]]></title>
     <url>%2F2018%2F03%2F05%2Fhello-world%20-%20%E5%89%AF%E6%9C%AC%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartPython算术运算符12345678运算符 描述 实例 + 加 a+b输出结果为30 — 减 a-b输出结果为-10 * 乘 a*b输出结果为200 / 除 b/a输出结果为2 % 取余数 b%a输出结果为0 ** 取幂次 a**b输出结果为10的20次方 // 取整 9/2输出结果为4.9.0/2.0结果为4.0 More info: Writing Python比较运算符12345678运算符 描述 实例 == 等于 - 比较对象是否相等!= 不等于 - 比较两个对象是否不相等&lt;&gt; 不等于 - 比较两个对象是否不相等&gt; 大于&lt; 小于&gt;= 大于等于&lt;= 小于等于 More info: Server Python赋值运算符123456789运算符 描述 = 简单的赋值运算符+= 加法赋值运算符-= 赋值赋值运算符*=/=%=**=//= More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
