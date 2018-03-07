@@ -25,6 +25,14 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[Python运算符]]></title>
+    <url>%2F2018%2F03%2F05%2Fhello-world%20-%20%E5%89%AF%E6%9C%AC%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartPython算术运算符12345678运算符 描述 实例 + 加 a+b输出结果为30 — 减 a-b输出结果为-10 * 乘 a*b输出结果为200 / 除 b/a输出结果为2 % 取余数 b%a输出结果为0 ** 取幂次 a**b输出结果为10的20次方 // 取整 9/2输出结果为4.9.0/2.0结果为4.0 More info: Writing Python比较运算符12345678运算符 描述 实例 == 等于 - 比较对象是否相等!= 不等于 - 比较两个对象是否不相等&lt;&gt; 不等于 - 比较两个对象是否不相等&gt; 大于&lt; 小于&gt;= 大于等于&lt;= 小于等于 More info: Server Python赋值运算符123456789运算符 描述 = 简单的赋值运算符+= 加法赋值运算符-= 减法赋值运算符*= 乘法赋值运算符/= 除法赋值运算符 %= 取余赋值运算符**= 幂赋值运算符//= 取整赋值运算符 More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F02%2F15%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post123456789$ hexo new "My New Post"``` More info: [Writing](https://hexo.io/docs/writing.html)### Run server``` bash$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
