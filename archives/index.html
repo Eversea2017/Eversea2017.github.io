@@ -109,7 +109,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="eversea">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+<meta property="og:url" content="http://eversea.top/archives/index.html">
 <meta property="og:site_name" content="eversea">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
@@ -122,7 +122,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/"/>
+  <link rel="canonical" href="http://eversea.top/archives/"/>
 
 
 
@@ -358,7 +358,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/03/07/Python基础/" itemprop="url">
+            <a class="post-title-link" href="/Python基础.html" itemprop="url">
               
                 <span itemprop="name">Python基础</span>
               
@@ -395,7 +395,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/03/06/hexo-博客常用操作/" itemprop="url">
+            <a class="post-title-link" href="/hexo-博客常用操作.html" itemprop="url">
               
                 <span itemprop="name">hexo 博客常用操作</span>
               
@@ -432,7 +432,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/03/06/memory/" itemprop="url">
+            <a class="post-title-link" href="/memory.html" itemprop="url">
               
                 <span itemprop="name">memory</span>
               
@@ -469,7 +469,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/03/05/hello-world - 副本/" itemprop="url">
+            <a class="post-title-link" href="/hello-world - 副本.html" itemprop="url">
               
                 <span itemprop="name">Python运算符</span>
               
@@ -506,7 +506,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/02/15/hello-world/" itemprop="url">
+            <a class="post-title-link" href="/hello-world.html" itemprop="url">
               
                 <span itemprop="name">Hello World</span>
               
@@ -664,7 +664,33 @@
           
             
           
-          
+          <div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("05/27/2017 15:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
 
         </div>
       </section>
