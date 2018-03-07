@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://eversea.top/about/index.html</loc>
+    
+    <lastmod>2018-03-07T16:46:20.725Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://eversea.top/hexo-%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html</loc>
     
     <lastmod>2018-03-07T16:25:05.394Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>http://eversea.top/hello-world.html</loc>
     
     <lastmod>2018-03-05T15:14:05.938Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://eversea.top/about/index.html</loc>
-    
-    <lastmod>2018-02-27T14:46:25.901Z</lastmod>
     
   </url>
   
