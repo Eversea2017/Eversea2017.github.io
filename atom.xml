@@ -45,7 +45,7 @@
     <link href="http://eversea.top/hexo-%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html"/>
     <id>http://eversea.top/hexo-博客常用操作.html</id>
     <published>2018-03-05T22:55:29.000Z</published>
-    <updated>2018-03-07T11:49:01.511Z</updated>
+    <updated>2018-03-07T16:25:05.394Z</updated>
     
     <content type="html"><![CDATA[<h3 id="写博客插入图片"><a href="#写博客插入图片" class="headerlink" title="写博客插入图片"></a>写博客插入图片</h3><p>打开站点配置文件_config.yml，找到post_asset_folder，将其值改为true，如下所示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: <span class="literal">true</span></span><br></pre></td></tr></table></figure></p><p>创建博客使用命令创建</p><pre><code class="bash">$ hexo new [layout] &lt;title&gt;</code></pre><p>其中的layout可以省略，例如</p><pre><code class="bash">$ hexo new  <span class="string">"test"</span></code></pre><p>使用命令创建之后，在source/_post文件夹里面就会出现一个”test”的文件和一个”test”的文件夹，然后把图片放进这个文件夹中，采用如下命令引用图片</p><pre><code class="bash">{% asset_img 引用图片.jpg 引用图片 %}</code></pre><p>效果如下<br><img src="/hexo-博客常用操作/引用图片.jpg" title="引用图片"></p>]]></content>
     
