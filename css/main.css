@@ -1907,7 +1907,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #71ff0d;
+  background: #99baaa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2905,4 +2905,8 @@ ul.breadcrumb li+li:last-child {
   color: #07b39b;
   font-size: 13px;
   margin-top: 15px;
+}
+#days {
+  display: inline;
+  color: #008000;
 }
