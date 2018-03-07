@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Python基础]]></title>
+    <url>%2F2018%2F03%2F07%2FPython%E5%9F%BA%E7%A1%80%2F</url>
+    <content type="text"><![CDATA[变量名可以由数字、字母和下划线组成。首位不能是数字变量名不能使用Python关键字关键字如下：最好不要和Python内置东西重复 条件语句if 条件 : print(‘ok’)else: print（’error’） if基本语句 if支持嵌套 if支持 Python条件语句1234if 判断条件: 执行语句elSe: 执行语句 if 判断条件1: 执行语句1 elif 判断条件2: 执行语句2 elif 判断条件3: 执行语句3 else: 执行语句4 字符串，引号引起的‘’ “” “”” “”” ‘’’ ‘’’字符串有加法和乘法]]></content>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo 博客常用操作]]></title>
     <url>%2F2018%2F03%2F06%2Fhexo-%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%2F</url>
     <content type="text"><![CDATA[写博客插入图片打开站点配置文件_config.yml，找到post_asset_folder，将其值改为true，如下所示：1post_asset_folder: true 创建博客使用命令创建 $ hexo new [layout] &lt;title&gt; 其中的layout可以省略，例如 $ hexo new "test" 使用命令创建之后，在source/_post文件夹里面就会出现一个”test”的文件和一个”test”的文件夹，然后把图片放进这个文件夹中，采用如下命令引用图片 {% asset_img 引用图片.jpg 引用图片 %} 效果如下]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[memory]]></title>
@@ -12,11 +23,6 @@
       <tags>
         <tag>最爱</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Python运算符]]></title>
-    <url>%2F2018%2F03%2F05%2Fhello-world%20-%20%E5%89%AF%E6%9C%AC%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartPython算术运算符12345678运算符 描述 实例 + 加 a+b输出结果为30 — 减 a-b输出结果为-10 * 乘 a*b输出结果为200 / 除 b/a输出结果为2 % 取余数 b%a输出结果为0 ** 取幂次 a**b输出结果为10的20次方 // 取整 9/2输出结果为4.9.0/2.0结果为4.0 More info: Writing Python比较运算符12345678运算符 描述 实例 == 等于 - 比较对象是否相等!= 不等于 - 比较两个对象是否不相等&lt;&gt; 不等于 - 比较两个对象是否不相等&gt; 大于&lt; 小于&gt;= 大于等于&lt;= 小于等于 More info: Server Python赋值运算符123456789运算符 描述 = 简单的赋值运算符+= 加法赋值运算符-= 赋值赋值运算符*=/=%=**=//= More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
