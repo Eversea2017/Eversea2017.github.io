@@ -5,6 +5,47 @@
     
     
   <url>
+    <loc>http://eversea.top/hello-world%20-%20%E5%89%AF%E6%9C%AC.html</loc>
+    <lastmod>2018-03-07T18:09:47.128Z</lastmod>
+    <data>
+        <display>
+        <title>Python基础（一）</title>
+        <pubTime>2018-03-05T12:49:41.726Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://eversea.top/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://eversea.top/Python%E5%9F%BA%E7%A1%80.html</loc>
+    <lastmod>2018-03-07T18:09:47.097Z</lastmod>
+    <data>
+        <display>
+        <title>Python基础</title>
+        <pubTime>2018-03-06T21:34:37.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://eversea.top/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>http://eversea.top/hexo-%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html</loc>
     <lastmod>2018-03-07T16:25:05.394Z</lastmod>
     <data>
@@ -38,41 +79,6 @@
     </url>
 
     
-  <url>
-    <loc>http://eversea.top/hello-world%20-%20%E5%89%AF%E6%9C%AC.html</loc>
-    <lastmod>2018-03-07T11:57:37.860Z</lastmod>
-    <data>
-        <display>
-        <title>Python运算符</title>
-        <pubTime>2018-03-05T12:49:41.726Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-  <url>
-    <loc>http://eversea.top/Python%E5%9F%BA%E7%A1%80.html</loc>
-    <lastmod>2018-03-06T15:42:38.346Z</lastmod>
-    <data>
-        <display>
-        <title>Python基础</title>
-        <pubTime>2018-03-06T21:34:37.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://eversea.top/hello-world.html</loc>

@@ -1,124 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title><![CDATA[Python基础]]></title>
-      <url>/Python%E5%9F%BA%E7%A1%80.html</url>
-      <content type="html"><![CDATA[<p>变量名可以由数字、字母和下划线组成。首位不能是数字<br>变量名不能使用Python关键字<br>关键字如下：<br>最好不要和Python内置东西重复</p>
-<p>条件语句<br>if 条件 :<br>  print(‘ok’)<br>else:<br>  print（’error’）</p>
-<p>  if基本语句<br>  if支持嵌套<br>  if支持</p>
-<h3 id="Python条件语句"><a href="#Python条件语句" class="headerlink" title="Python条件语句"></a>Python条件语句</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> 判断条件:</span><br><span class="line">	执行语句</span><br><span class="line">elSe:</span><br><span class="line">	执行语句</span><br></pre></td></tr></table></figure>
-<pre><code class="bash"><span class="keyword">if</span> 判断条件1:
-    执行语句1
-<span class="keyword">elif</span> 判断条件2:
-    执行语句2
-<span class="keyword">elif</span> 判断条件3:
-    执行语句3
-<span class="keyword">else</span>:
-    执行语句4
-</code></pre>
-<p>字符串，引号引起的<br>‘’ “” “”” “”” ‘’’ ‘’’<br>字符串有加法和乘法</p>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> Python </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[hexo 博客常用操作]]></title>
-      <url>/hexo-%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html</url>
-      <content type="html"><![CDATA[<h3 id="写博客插入图片"><a href="#写博客插入图片" class="headerlink" title="写博客插入图片"></a>写博客插入图片</h3><p>打开站点配置文件_config.yml，找到post_asset_folder，将其值改为true，如下所示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-<p>创建博客使用命令创建</p>
-<pre><code class="bash">$ hexo new [layout] &lt;title&gt;
-</code></pre>
-<p>其中的layout可以省略，例如</p>
-<pre><code class="bash">$ hexo new  <span class="string">"test"</span>
-</code></pre>
-<p>使用命令创建之后，在source/_post文件夹里面就会出现一个”test”的文件和一个”test”的文件夹，然后把图片放进这个文件夹中，采用如下命令引用图片</p>
-<pre><code class="bash">{% asset_img 引用图片.jpg 引用图片 %}
-</code></pre>
-<p>效果如下<br><img src="/hexo-博客常用操作/引用图片.jpg" title="引用图片"></p>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[memory]]></title>
-      <url>/memory.html</url>
-      <content type="html"><![CDATA[<p>关关雎鸠，在河之洲。窈窕淑女，君子好逑。</p>
-<p>参差荇萍，左右流之。窈窕淑女，寤寐求之。</p>
-<p>求之不得，寤寐思服。悠哉悠哉，辗转反侧。</p>
-<p>参差荇萍，左右采之。窈窕淑女，琴瑟友之。</p>
-<p>参差荇萍，左右芼之。窈窕淑女，钟鼓乐之。</p>
-<img src="/memory/1.jpg" title="My Best Love">
-<img src="/memory/2.jpg" title="My Best Love">
-<img src="/memory/3.jpg" title="My Best Love">
-<img src="/memory/4.jpg" title="My Best Love">
-<img src="/memory/5.jpg" title="My Best Love">
-<img src="/memory/6.jpg" title="My Best Love">
-<img src="/memory/7.jpg" title="My Best Love">
-<img src="/memory/8.jpg" title="My Best Love">]]></content>
-      
-        
-        <tags>
-            
-            <tag> 最爱 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Python运算符]]></title>
-      <url>/hello-world%20-%20%E5%89%AF%E6%9C%AC.html</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Python算术运算符"><a href="#Python算术运算符" class="headerlink" title="Python算术运算符"></a>Python算术运算符</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">运算符      描述               实例          </span><br><span class="line">  +         加                 a+b输出结果为30</span><br><span class="line">  —         减                 a-b输出结果为-10</span><br><span class="line">  *         乘                 a*b输出结果为200</span><br><span class="line">  /         除                 b/a输出结果为2</span><br><span class="line">  %         取余数             b%a输出结果为0</span><br><span class="line">  **        取幂次             a**b输出结果为10的20次方</span><br><span class="line">  //        取整               9/2输出结果为4.9.0/2.0结果为4.0</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Python比较运算符"><a href="#Python比较运算符" class="headerlink" title="Python比较运算符"></a>Python比较运算符</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">运算符      描述                         实例 </span><br><span class="line">==          等于 - 比较对象是否相等</span><br><span class="line">!=          不等于 - 比较两个对象是否不相等</span><br><span class="line">&lt;&gt;          不等于 - 比较两个对象是否不相等</span><br><span class="line">&gt;           大于</span><br><span class="line">&lt;           小于</span><br><span class="line">&gt;=          大于等于</span><br><span class="line">&lt;=	        小于等于</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Python赋值运算符"><a href="#Python赋值运算符" class="headerlink" title="Python赋值运算符"></a>Python赋值运算符</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">运算符      描述 </span><br><span class="line">=           简单的赋值运算符</span><br><span class="line">+=          加法赋值运算符</span><br><span class="line">-=          减法赋值运算符</span><br><span class="line">*=          乘法赋值运算符</span><br><span class="line">/=          除法赋值运算符    </span><br><span class="line">%=          取余赋值运算符</span><br><span class="line">**=         幂赋值运算符</span><br><span class="line">//=         取整赋值运算符</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>/hello-world.html</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br><span class="line">```                                                                           </span><br><span class="line"></span><br><span class="line">More info: [Writing](https://hexo.io/docs/writing.html)</span><br><span class="line"></span><br><span class="line"><span class="comment">### Run server</span></span><br><span class="line"></span><br><span class="line">``` bash</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-      
-        
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[Python基础]]></title>
+    <url>%2FPython%E5%9F%BA%E7%A1%80.html</url>
+    <content type="text"><![CDATA[变量名可以由数字、字母和下划线组成。首位不能是数字变量名不能使用Python关键字关键字如下：最好不要和Python内置东西重复 条件语句if 条件 : print(‘ok’)else: print（’error’） if基本语句 if支持嵌套 if支持 Python条件语句1234if 判断条件: 执行语句elSe: 执行语句 if 判断条件1: 执行语句1 elif 判断条件2: 执行语句2 elif 判断条件3: 执行语句3 else: 执行语句4 字符串，引号引起的‘’ “” “”” “”” ‘’’ ‘’’字符串有加法和乘法]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo 博客常用操作]]></title>
+    <url>%2Fhexo-%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html</url>
+    <content type="text"><![CDATA[写博客插入图片打开站点配置文件_config.yml，找到post_asset_folder，将其值改为true，如下所示：1post_asset_folder: true 创建博客使用命令创建 $ hexo new [layout] &lt;title&gt; 其中的layout可以省略，例如 $ hexo new "test" 使用命令创建之后，在source/_post文件夹里面就会出现一个”test”的文件和一个”test”的文件夹，然后把图片放进这个文件夹中，采用如下命令引用图片 {% asset_img 引用图片.jpg 引用图片 %} 效果如下]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[memory]]></title>
+    <url>%2Fmemory.html</url>
+    <content type="text"><![CDATA[关关雎鸠，在河之洲。窈窕淑女，君子好逑。 参差荇萍，左右流之。窈窕淑女，寤寐求之。 求之不得，寤寐思服。悠哉悠哉，辗转反侧。 参差荇萍，左右采之。窈窕淑女，琴瑟友之。 参差荇萍，左右芼之。窈窕淑女，钟鼓乐之。]]></content>
+      <tags>
+        <tag>最爱</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Python基础（一）]]></title>
+    <url>%2Fhello-world%20-%20%E5%89%AF%E6%9C%AC.html</url>
+    <content type="text"><![CDATA[Python运算符Python算术运算符12345678运算符 描述 实例 + 加 a+b输出结果为30 — 减 a-b输出结果为-10 * 乘 a*b输出结果为200 / 除 b/a输出结果为2 % 取余数 b%a输出结果为0 ** 取幂次 a**b输出结果为10的20次方 // 取整 9/2输出结果为4.9.0/2.0结果为4.0 Python比较运算符12345678运算符 描述 实例 == 等于 - 比较对象是否相等 (a == b) 返回 False!= 不等于 - 比较两个对象是否不相等 (a != b) 返回 true&lt;&gt; 不等于 - 比较两个对象是否不相等 (a &lt;&gt; b) 返回 true&gt; 大于 (a &gt; b) 返回 False&lt; 小于 (a &lt; b) 返回 true&gt;= 大于等于 (a &gt;= b) 返回 False&lt;= 小于等于 (a &lt;= b) 返回 true Python赋值运算符123456789运算符 描述 实例= 简单的赋值运算符 c = a + b 将 a + b 的运算结果赋值为 c+= 加法赋值运算符 c += a 等效于 c = c + a-= 减法赋值运算符 c -= a 等效于 c = c - a*= 乘法赋值运算符 c *= a 等效于 c = c * a/= 除法赋值运算符 c /= a 等效于 c = c / a%= 取余赋值运算符 c %= a 等效于 c = c % a**= 幂赋值运算符 c **= a 等效于 c = c ** a//= 取整赋值运算符 c //= a 等效于 c = c // a Python位运算符1234567运算符 描述 实例&amp; 按位与运算符| 按位或运算符^ 按位异或运算符~ 按位取反运算符&lt;&lt; 左移动运算符&gt;&gt; 右移动运算符 Python逻辑运算符1234运算符 描述 实例and 布尔"与" - 如果 x 为 False，x and y 返回 False，否则它返回 y 的计算值or 按位或运算符not 按位异或运算符 1$ hexo deploy 未完待续ing…]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2Fhello-world.html</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post123456789$ hexo new "My New Post"``` More info: [Writing](https://hexo.io/docs/writing.html)### Run server``` bash$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
 </search>
