@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Python魔法]]></title>
+    <url>%2FPython%E9%AD%94%E6%B3%95.html</url>
+    <content type="text"><![CDATA[字符串魔法首字母大写1234test="everSEA"v=test.capitalize()print(v)EverSEA 全部转换为小写，仅支持英文字符转换，.casefold() 支持多种语言1234test="everSEA"v=test.lower()print(v)eversea 全部转换为大写123456789101112131415161718192021test="everSEA"v=test.upper()print(v)EVERSEA``` #### 大小写转换``` bashtest="everSEA"v=test.swapcase()print(v)EVERsea``` #### 判断字符是否全部是大写``` bashtest1="everSEA"test2="EVERSEA"v1=test1.isupper() #islower判断小写v2=test2.isupper()print(v1,v2)FalseTrue 字符串居中显示，指定字符总数并设定空白处填充字符test="ever" v=test.center(20,"*") print(v) ********ever******** 字符串居左test="ever" v=test.ljust(20,"*") print(v) ever**************** 字符串居右test="ever" v=test.rjust(20,"*") print(v) ****************ever 字符串居右并填充0test="ever" v=test.zfill(20,"*") print(v) 0000000000000000ever 统计指定的子序列（有序排列的连续的字符）数量，可指定统计的start，end位置（正整数代表从左的偏移量，负整数代表右侧开始的偏移量）test="everever" v1=test.count("ev") v2=test.count("ev",2,8) print(v1) print(v2) 2 1 判断起始字符test="ever" v1=test.startswith("ev") v2=test.startswith("el") print(v1) print(v2) True False 判断终止字符test="ever" v1=test.endswith("er") v2=test.endswith("el") print(v1) print(v2) True False 找到匹配的子序列输出其位置（从0开始计数），未找到则返回-1test="everever" v1=test.find("ev") v2=test.find("ew") print(v1) print(v2) 0 -1 拼接test1="eversea" test2="*" v=test1.join(test1) print(v) e*v*e*r*s*e*a 去除空白，还可以去除指定内容test="alex" v=test.strip("a") print(v) lex 分割，可以指定分隔符和分割次数test="alexalex" v=test.split("e",1) print(v) ['al', 'xalex'] 获取当前字符串中由几个字符组成test="alexalex" v=len(test) print(v) 8]]></content>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Python3与pycharm安装]]></title>
     <url>%2FPython3%E4%B8%8Epychare%E5%AE%89%E8%A3%85.html</url>
     <content type="text"><![CDATA[Python3安装环境：win7+Python3先下载Python3下载好之后，一路安装就行了，记住把环境变量加上去，如下 安装成功之后，win+r调出cmd界面输入Python如下说明你的电脑已正确安装了Python pycharm安装下载pycharm，选专业版的下载。下载好之后一步一步点下去即可安装好之后，破解步骤如下： 修改host文件，windoes系统host文件路径为C:\Windows\System32\drivers\etc，添加如下一行，目的是屏蔽pycharm对激活码的验证0.0.0.0 account.jetbrains.com 打开pycharm，选择Active code，输入以下激活码，点击ok即可EB101IWSWD-eyJsaWNlbnNlSWQiOiJFQjEwMUlXU1dEIiwibGljZW5zZWVOYW1lIjoibGFuIHl1IiwiYXNzaWduZWVOYW1lIjoiIiwiYXNzaWduZWVFbWFpbCI6IiIsImxpY2Vuc2VSZXN0cmljdGlvbiI6IkZvciBlZHVjYXRpb25hbCB1c2Ugb25seSIsImNoZWNrQ29uY3VycmVudFVzZSI6ZmFsc2UsInByb2R1Y3RzIjpbeyJjb2RlIjoiSUkiLCJwYWlkVXBUbyI6IjIwMTgtMTAtMTQifSx7ImNvZGUiOiJSUzAiLCJwYWlkVXBUbyI6IjIwMTgtMTAtMTQifSx7ImNvZGUiOiJXUyIsInBhaWRVcFRvIjoiMjAxOC0xMC0xNCJ9LHsiY29kZSI6IlJEIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In0seyJjb2RlIjoiUkMiLCJwYWlkVXBUbyI6IjIwMTgtMTAtMTQifSx7ImNvZGUiOiJEQyIsInBhaWRVcFRvIjoiMjAxOC0xMC0xNCJ9LHsiY29kZSI6IkRCIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In0seyJjb2RlIjoiUk0iLCJwYWlkVXBUbyI6IjIwMTgtMTAtMTQifSx7ImNvZGUiOiJETSIsInBhaWRVcFRvIjoiMjAxOC0xMC0xNCJ9LHsiY29kZSI6IkFDIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In0seyJjb2RlIjoiRFBOIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In0seyJjb2RlIjoiUFMiLCJwYWlkVXBUbyI6IjIwMTgtMTAtMTQifSx7ImNvZGUiOiJDTCIsInBhaWRVcFRvIjoiMjAxOC0xMC0xNCJ9LHsiY29kZSI6IlBDIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In0seyJjb2RlIjoiUlNVIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In1dLCJoYXNoIjoiNjk0NDAzMi8wIiwiZ3JhY2VQZXJpb2REYXlzIjowLCJhdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlLCJpc0F1dG9Qcm9sb25nYXRlZCI6ZmFsc2V9-Gbb7jeR8JWOVxdUFaXfJzVU/O7c7xHQyaidCnhYLp7v32zdeXiHUU7vlrrm5y9ZX0lmQk3plCCsW+phrC9gGAPd6WDKhkal10qVNg0larCR2tQ3u8jfv1t2JAvWrMOJfFG9kKsJuw1P4TozZ/E7Qvj1cupf/rldhoOmaXMyABxNN1af1RV3bVhe4FFZe0p7xlIJF/ctZkFK62HYmh8V3AyhUNTzrvK2k+t/tlDJz2LnW7nYttBLHld8LabPlEEjpTHswhzlthzhVqALIgvF0uNbIJ5Uwpb7NqR4U/2ob0Z+FIcRpFUIAHEAw+RLGwkCge5DyZKfx+RoRJ/In4q/UpA==-MIIEPjCCAiagAwIBAgIBBTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE1MTEwMjA4MjE0OFoXDTE4MTEwMTA4MjE0OFowETEPMA0GA1UEAwwGcHJvZDN5MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxcQkq+zdxlR2mmRYBPzGbUNdMN6OaXiXzxIWtMEkrJMO/5oUfQJbLLuMSMK0QHFmaI37WShyxZcfRCidwXjot4zmNBKnlyHodDij/78TmVqFl8nOeD5+07B8VEaIu7c3E1N+e1doC6wht4I4+IEmtsPAdoaj5WCQVQbrI8KeT8M9VcBIWX7fD0fhexfg3ZRt0xqwMcXGNp3DdJHiO0rCdU+Itv7EmtnSVq9jBG1usMSFvMowR25mju2JcPFp1+I4ZI+FqgR8gyG8oiNDyNEoAbsR3lOpI7grUYSvkB/xVy/VoklPCK2h0f0GJxFjnye8NT1PAywoyl7RmiAVRE/EKwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQC9WZuYgQedSuOc5TOUSrRigMw4/+wuC5EtZBfvdl4HT/8vzMW/oUlIP4YCvA0XKyBaCJ2iX+ZCDKoPfiYXiaSiH+HxAPV6J79vvouxKrWg2XV6ShFtPLP+0gPdGq3x9R3+kJbmAm8w+FOdlWqAfJrLvpzMGNeDU14YGXiZ9bVzmIQbwrBA+c/F4tlK/DV07dsNExihqFoibnqDiVNTGombaU2dDup2gwKdL81ua8EIcGNExHe82kjF4zwfadHk3bQVvbfdAwxcDy4xBjs3L4raPLU3yenSzr/OEur1+jfOxnQSmEcMXKXgrAQ9U55gwjcOFKrgOxEdek/Sk1VfOjvS+nuM4eyEruFMfaZHzoQiuw4IqgGc45ohFH0UUyjYcuFxxDSU9lMCv8qdHKm+wnPRb0l9l5vXsCBDuhAGYD6ss+Ga+aDY6f/qXZuUCEUOH3QUNbbCUlviSz6+GiRnt1kA9N2Qachl+2yBfaqUqr8h7Z2gsx5LcIf5kYNsqJ0GavXTVyWh7PYiKX4bs354ZQLUwwa/cG++2+wNWP+HtBhVxMRNTdVhSm38AknZlD+PTAsWGu9GyLmhti2EnVwGybSD2Dxmhxk3IPCkhKAK+pl0eWYGZWG3tJ9mZ7SowcXLWDFAk0lRJnKGFMTggrWjV8GYpw5bq23VmIqqDLgkNzuoog== 验证成功之后，点击Create New Project，然后在下面界面设置好Project位置和解释器 使用pycharm输出我的第一行代码]]></content>
@@ -12,9 +20,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Python基础]]></title>
+    <title><![CDATA[Python基础之函数]]></title>
     <url>%2FPython%E5%9F%BA%E7%A1%80.html</url>
-    <content type="text"><![CDATA[变量名可以由数字、字母和下划线组成。首位不能是数字变量名不能使用Python关键字关键字如下：最好不要和Python内置东西重复 条件语句if 条件 : print(‘ok’)else: print（’error’） if基本语句 if支持嵌套 if支持 Python条件语句1234if 判断条件: 执行语句elSe: 执行语句 if 判断条件1: 执行语句1 elif 判断条件2: 执行语句2 elif 判断条件3: 执行语句3 else: 执行语句4 字符串，引号引起的‘’ “” “”” “”” ‘’’ ‘’’字符串有加法和乘法]]></content>
+    <content type="text"><![CDATA[定义函数定义一个称为sayhelloworld的函数，并调用 def sayhelloworld(): print ('hello,world') sayhelloworld() 输出 hello,world 函数形参和实参第一个使用pritmax中，直接给数，即实参。第二个使用中，使用变量调用函数，即形参 def printmax(a,b): if a&gt;b: print(a, 'is maxmum') if a&lt;b: print(b, 'is maxmum') printmax(3,4) f=5 h=6 printmax(f,h) 输出 4 is maxmum 6 is maxmum 局部变量当你在函数定义内声明变量的时候，它们与函数外具有相同名称的其他变量没有任何关系，即变量名称对于函数来说是局部的。可以在函数模块通过global语句申明是全局变量 def func(x): print ('x is', x) x=2 print('change local x to', x) x=50 func(x) print('x is still', x) 输出 x is 50 change local x to 2 x is still 50 可以在函数模块通过使用global语句来申明函数模块里某个参数是全局变量 def func(): global x print ('x is', x) x=2 print('change local x to', x) x=50 func() print('x is still', x) 输出 x is 50 change local x to 2 x is still 2 ###默认参数值 def say(message, times=1): print(message*times) say('hello') say('world',5) 输出 hello worldworldworldworldworld x is still 2]]></content>
       <categories>
         <category>Python</category>
       </categories>
@@ -36,17 +44,6 @@
     <content type="text"><![CDATA[关关雎鸠，在河之洲。窈窕淑女，君子好逑。 参差荇萍，左右流之。窈窕淑女，寤寐求之。 求之不得，寤寐思服。悠哉悠哉，辗转反侧。 参差荇萍，左右采之。窈窕淑女，琴瑟友之。 参差荇萍，左右芼之。窈窕淑女，钟鼓乐之。]]></content>
       <tags>
         <tag>最爱</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Python基础（一）]]></title>
-    <url>%2Fhello-world%20-%20%E5%89%AF%E6%9C%AC.html</url>
-    <content type="text"><![CDATA[Python运算符Python算术运算符12345678运算符 描述 实例 + 加 a+b输出结果为30 — 减 a-b输出结果为-10 * 乘 a*b输出结果为200 / 除 b/a输出结果为2 % 取余数 b%a输出结果为0 ** 取幂次 a**b输出结果为10的20次方 // 取整 9/2输出结果为4.9.0/2.0结果为4.0 Python比较运算符12345678运算符 描述 实例 == 等于 - 比较对象是否相等 (a == b) 返回 False!= 不等于 - 比较两个对象是否不相等 (a != b) 返回 true&lt;&gt; 不等于 - 比较两个对象是否不相等 (a &lt;&gt; b) 返回 true&gt; 大于 (a &gt; b) 返回 False&lt; 小于 (a &lt; b) 返回 true&gt;= 大于等于 (a &gt;= b) 返回 False&lt;= 小于等于 (a &lt;= b) 返回 true Python赋值运算符123456789运算符 描述 实例= 简单的赋值运算符 c = a + b 将 a + b 的运算结果赋值为 c+= 加法赋值运算符 c += a 等效于 c = c + a-= 减法赋值运算符 c -= a 等效于 c = c - a*= 乘法赋值运算符 c *= a 等效于 c = c * a/= 除法赋值运算符 c /= a 等效于 c = c / a%= 取余赋值运算符 c %= a 等效于 c = c % a**= 幂赋值运算符 c **= a 等效于 c = c ** a//= 取整赋值运算符 c //= a 等效于 c = c // a Python位运算符1234567运算符 描述 实例&amp; 按位与运算符| 按位或运算符^ 按位异或运算符~ 按位取反运算符&lt;&lt; 左移动运算符&gt;&gt; 右移动运算符 Python逻辑运算符``` bash运算符 描述 实例and 布尔”与” - 如果 x 为 False，x and y 返回 False，否则它返回 y 的计算值or 按位或运算符not 按位异或运算符 未完待续ing…]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>

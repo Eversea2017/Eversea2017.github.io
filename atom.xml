@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://eversea.top/"/>
-  <updated>2018-03-08T12:07:15.584Z</updated>
+  <updated>2018-03-21T15:38:49.809Z</updated>
   <id>http://eversea.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python魔法</title>
+    <link href="http://eversea.top/Python%E9%AD%94%E6%B3%95.html"/>
+    <id>http://eversea.top/Python魔法.html</id>
+    <published>2018-03-21T23:18:24.000Z</published>
+    <updated>2018-03-21T15:38:49.809Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="字符串魔法"><a href="#字符串魔法" class="headerlink" title="字符串魔法"></a>字符串魔法</h3><h4 id="首字母大写"><a href="#首字母大写" class="headerlink" title="首字母大写"></a>首字母大写</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">test</span>=<span class="string">"everSEA"</span></span><br><span class="line">v=test.capitalize()</span><br><span class="line"><span class="built_in">print</span>(v)</span><br><span class="line">EverSEA</span><br></pre></td></tr></table></figure><h4 id="全部转换为小写，仅支持英文字符转换，-casefold-支持多种语言"><a href="#全部转换为小写，仅支持英文字符转换，-casefold-支持多种语言" class="headerlink" title="全部转换为小写，仅支持英文字符转换，.casefold()   支持多种语言"></a>全部转换为小写，仅支持英文字符转换，.casefold()   支持多种语言</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">test</span>=<span class="string">"everSEA"</span></span><br><span class="line">v=test.lower()</span><br><span class="line"><span class="built_in">print</span>(v)</span><br><span class="line">eversea</span><br></pre></td></tr></table></figure><h4 id="全部转换为大写"><a href="#全部转换为大写" class="headerlink" title="全部转换为大写"></a>全部转换为大写</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">test</span>=<span class="string">"everSEA"</span></span><br><span class="line">v=test.upper()</span><br><span class="line"><span class="built_in">print</span>(v)</span><br><span class="line">EVERSEA</span><br><span class="line">``` </span><br><span class="line"><span class="comment">#### 大小写转换</span></span><br><span class="line">``` bash</span><br><span class="line"><span class="built_in">test</span>=<span class="string">"everSEA"</span></span><br><span class="line">v=test.swapcase()</span><br><span class="line"><span class="built_in">print</span>(v)</span><br><span class="line">EVERsea</span><br><span class="line">```                                      </span><br><span class="line"><span class="comment">#### 判断字符是否全部是大写</span></span><br><span class="line">``` bash</span><br><span class="line">test1=<span class="string">"everSEA"</span></span><br><span class="line">test2=<span class="string">"EVERSEA"</span></span><br><span class="line">v1=test1.isupper()     <span class="comment">#islower判断小写</span></span><br><span class="line">v2=test2.isupper()</span><br><span class="line"><span class="built_in">print</span>(v1,v2)</span><br><span class="line">False</span><br><span class="line">True</span><br></pre></td></tr></table></figure><h4 id="字符串居中显示，指定字符总数并设定空白处填充字符"><a href="#字符串居中显示，指定字符总数并设定空白处填充字符" class="headerlink" title="字符串居中显示，指定字符总数并设定空白处填充字符"></a>字符串居中显示，指定字符总数并设定空白处填充字符</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"ever"</span>v=test.center(20,<span class="string">"*"</span>)<span class="built_in">print</span>(v)********ever********</code></pre><h4 id="字符串居左"><a href="#字符串居左" class="headerlink" title="字符串居左"></a>字符串居左</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"ever"</span>v=test.ljust(20,<span class="string">"*"</span>)<span class="built_in">print</span>(v)ever****************</code></pre><h4 id="字符串居右"><a href="#字符串居右" class="headerlink" title="字符串居右"></a>字符串居右</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"ever"</span>v=test.rjust(20,<span class="string">"*"</span>)<span class="built_in">print</span>(v)****************ever</code></pre><h4 id="字符串居右并填充0"><a href="#字符串居右并填充0" class="headerlink" title="字符串居右并填充0"></a>字符串居右并填充0</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"ever"</span>v=test.zfill(20,<span class="string">"*"</span>)<span class="built_in">print</span>(v)0000000000000000ever</code></pre><h4 id="统计指定的子序列（有序排列的连续的字符）数量，可指定统计的start，end位置（正整数代表从左的偏移量，负整数代表右侧开始的偏移量）"><a href="#统计指定的子序列（有序排列的连续的字符）数量，可指定统计的start，end位置（正整数代表从左的偏移量，负整数代表右侧开始的偏移量）" class="headerlink" title="统计指定的子序列（有序排列的连续的字符）数量，可指定统计的start，end位置（正整数代表从左的偏移量，负整数代表右侧开始的偏移量）"></a>统计指定的子序列（有序排列的连续的字符）数量，可指定统计的start，end位置（正整数代表从左的偏移量，负整数代表右侧开始的偏移量）</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"everever"</span>v1=test.count(<span class="string">"ev"</span>)v2=test.count(<span class="string">"ev"</span>,2,8)<span class="built_in">print</span>(v1)<span class="built_in">print</span>(v2)21</code></pre><h4 id="判断起始字符"><a href="#判断起始字符" class="headerlink" title="判断起始字符"></a>判断起始字符</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"ever"</span>v1=test.startswith(<span class="string">"ev"</span>)v2=test.startswith(<span class="string">"el"</span>)<span class="built_in">print</span>(v1)<span class="built_in">print</span>(v2)TrueFalse</code></pre><h4 id="判断终止字符"><a href="#判断终止字符" class="headerlink" title="判断终止字符"></a>判断终止字符</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"ever"</span>v1=test.endswith(<span class="string">"er"</span>)v2=test.endswith(<span class="string">"el"</span>)<span class="built_in">print</span>(v1)<span class="built_in">print</span>(v2)TrueFalse</code></pre><h4 id="找到匹配的子序列输出其位置（从0开始计数），未找到则返回-1"><a href="#找到匹配的子序列输出其位置（从0开始计数），未找到则返回-1" class="headerlink" title="找到匹配的子序列输出其位置（从0开始计数），未找到则返回-1"></a>找到匹配的子序列输出其位置（从0开始计数），未找到则返回-1</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"everever"</span>v1=test.find(<span class="string">"ev"</span>)v2=test.find(<span class="string">"ew"</span>)<span class="built_in">print</span>(v1)<span class="built_in">print</span>(v2)0-1</code></pre><h4 id="拼接"><a href="#拼接" class="headerlink" title="拼接"></a>拼接</h4><pre><code class="bash">test1=<span class="string">"eversea"</span>test2=<span class="string">"*"</span>v=test1.join(test1)<span class="built_in">print</span>(v)e*v*e*r*s*e*a</code></pre><h4 id="去除空白，还可以去除指定内容"><a href="#去除空白，还可以去除指定内容" class="headerlink" title="去除空白，还可以去除指定内容"></a>去除空白，还可以去除指定内容</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"alex"</span>v=test.strip(<span class="string">"a"</span>)<span class="built_in">print</span>(v)lex</code></pre><h4 id="分割，可以指定分隔符和分割次数"><a href="#分割，可以指定分隔符和分割次数" class="headerlink" title="分割，可以指定分隔符和分割次数"></a>分割，可以指定分隔符和分割次数</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"alexalex"</span>v=test.split(<span class="string">"e"</span>,1)<span class="built_in">print</span>(v)[<span class="string">'al'</span>, <span class="string">'xalex'</span>]</code></pre><h4 id="获取当前字符串中由几个字符组成"><a href="#获取当前字符串中由几个字符组成" class="headerlink" title="获取当前字符串中由几个字符组成"></a>获取当前字符串中由几个字符组成</h4><pre><code class="bash"><span class="built_in">test</span>=<span class="string">"alexalex"</span>v=len(<span class="built_in">test</span>)<span class="built_in">print</span>(v)8</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;字符串魔法&quot;&gt;&lt;a href=&quot;#字符串魔法&quot; class=&quot;headerlink&quot; title=&quot;字符串魔法&quot;&gt;&lt;/a&gt;字符串魔法&lt;/h3&gt;&lt;h4 id=&quot;首字母大写&quot;&gt;&lt;a href=&quot;#首字母大写&quot; class=&quot;headerlink&quot; title=&quot;首字母
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://eversea.top/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>Python3与pycharm安装</title>
@@ -42,20 +65,20 @@
   </entry>
   
   <entry>
-    <title>Python基础</title>
+    <title>Python基础之函数</title>
     <link href="http://eversea.top/Python%E5%9F%BA%E7%A1%80.html"/>
     <id>http://eversea.top/Python基础.html</id>
     <published>2018-03-06T21:34:37.000Z</published>
-    <updated>2018-03-07T18:09:47.097Z</updated>
+    <updated>2018-03-11T14:57:54.236Z</updated>
     
-    <content type="html"><![CDATA[<p>变量名可以由数字、字母和下划线组成。首位不能是数字<br>变量名不能使用Python关键字<br>关键字如下：<br>最好不要和Python内置东西重复</p><p>条件语句<br>if 条件 :<br>  print(‘ok’)<br>else:<br>  print（’error’）</p><p>  if基本语句<br>  if支持嵌套<br>  if支持</p><h3 id="Python条件语句"><a href="#Python条件语句" class="headerlink" title="Python条件语句"></a>Python条件语句</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> 判断条件:</span><br><span class="line">执行语句</span><br><span class="line">elSe:</span><br><span class="line">执行语句</span><br></pre></td></tr></table></figure><pre><code class="bash"><span class="keyword">if</span> 判断条件1:    执行语句1<span class="keyword">elif</span> 判断条件2:    执行语句2<span class="keyword">elif</span> 判断条件3:    执行语句3<span class="keyword">else</span>:    执行语句4</code></pre><p>字符串，引号引起的<br>‘’ “” “”” “”” ‘’’ ‘’’<br>字符串有加法和乘法</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="定义函数"><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h3><p>定义一个称为sayhelloworld的函数，并调用</p><pre><code class="bash">def sayhelloworld():    <span class="built_in">print</span> (<span class="string">'hello,world'</span>)sayhelloworld()</code></pre><p>输出</p><pre><code class="bash">hello,world</code></pre><h3 id="函数形参和实参"><a href="#函数形参和实参" class="headerlink" title="函数形参和实参"></a>函数形参和实参</h3><p>第一个使用pritmax中，直接给数，即实参。第二个使用中，使用变量调用函数，即形参</p><pre><code class="bash">def printmax(a,b):    <span class="keyword">if</span> a&gt;b:        <span class="built_in">print</span>(a, <span class="string">'is maxmum'</span>)    <span class="keyword">if</span> a&lt;b:        <span class="built_in">print</span>(b, <span class="string">'is maxmum'</span>)printmax(3,4)f=5h=6printmax(f,h)</code></pre><p>输出</p><pre><code class="bash">4 is maxmum6 is maxmum</code></pre><h3 id="局部变量"><a href="#局部变量" class="headerlink" title="局部变量"></a>局部变量</h3><p>当你在函数定义内声明变量的时候，它们与函数外具有相同名称的其他变量没有任何关系，即变量名称对于函数来说是局部的。可以在函数模块通过global语句申明是全局变量</p><pre><code class="bash">def func(x):    <span class="built_in">print</span> (<span class="string">'x is'</span>, x)    x=2    <span class="built_in">print</span>(<span class="string">'change local x to'</span>, x)x=50func(x)<span class="built_in">print</span>(<span class="string">'x is still'</span>, x)</code></pre><p>输出</p><pre><code class="bash">x is 50change <span class="built_in">local</span> x to 2x is still 50</code></pre><p>可以在函数模块通过使用global语句来申明函数模块里某个参数是全局变量</p><pre><code class="bash">def func():    global x    <span class="built_in">print</span> (<span class="string">'x is'</span>, x)    x=2    <span class="built_in">print</span>(<span class="string">'change local x to'</span>, x)x=50func()<span class="built_in">print</span>(<span class="string">'x is still'</span>, x)</code></pre><p>输出</p><pre><code class="bash">x is 50change <span class="built_in">local</span> x to 2x is still 2</code></pre><p>###默认参数值</p><pre><code class="bash">def say(message, <span class="built_in">times</span>=1):    <span class="built_in">print</span>(message*<span class="built_in">times</span>)say(<span class="string">'hello'</span>)say(<span class="string">'world'</span>,5)</code></pre><p>输出</p><pre><code class="bash">helloworldworldworldworldworldx is still 2</code></pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;变量名可以由数字、字母和下划线组成。首位不能是数字&lt;br&gt;变量名不能使用Python关键字&lt;br&gt;关键字如下：&lt;br&gt;最好不要和Python内置东西重复&lt;/p&gt;
-&lt;p&gt;条件语句&lt;br&gt;if 条件 :&lt;br&gt;  print(‘ok’)&lt;br&gt;else:&lt;br&gt;  print（
+        &lt;h3 id=&quot;定义函数&quot;&gt;&lt;a href=&quot;#定义函数&quot; class=&quot;headerlink&quot; title=&quot;定义函数&quot;&gt;&lt;/a&gt;定义函数&lt;/h3&gt;&lt;p&gt;定义一个称为sayhelloworld的函数，并调用&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;def say
       
     
     </summary>
@@ -115,31 +138,6 @@
     
     
       <category term="最爱" scheme="http://eversea.top/tags/%E6%9C%80%E7%88%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python基础（一）</title>
-    <link href="http://eversea.top/hello-world%20-%20%E5%89%AF%E6%9C%AC.html"/>
-    <id>http://eversea.top/hello-world - 副本.html</id>
-    <published>2018-03-05T12:49:41.726Z</published>
-    <updated>2018-03-07T18:20:16.700Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Python运算符"><a href="#Python运算符" class="headerlink" title="Python运算符"></a>Python运算符</h2><h3 id="Python算术运算符"><a href="#Python算术运算符" class="headerlink" title="Python算术运算符"></a>Python算术运算符</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">运算符      描述               实例          </span><br><span class="line">  +         加                 a+b输出结果为30</span><br><span class="line">  —         减                 a-b输出结果为-10</span><br><span class="line">  *         乘                 a*b输出结果为200</span><br><span class="line">  /         除                 b/a输出结果为2</span><br><span class="line">  %         取余数             b%a输出结果为0</span><br><span class="line">  **        取幂次             a**b输出结果为10的20次方</span><br><span class="line">  //        取整               9/2输出结果为4.9.0/2.0结果为4.0</span><br></pre></td></tr></table></figure><h3 id="Python比较运算符"><a href="#Python比较运算符" class="headerlink" title="Python比较运算符"></a>Python比较运算符</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">运算符      描述                                       实例 </span><br><span class="line">==          等于 - 比较对象是否相等                    (a == b) 返回 False</span><br><span class="line">!=          不等于 - 比较两个对象是否不相等            (a != b) 返回 <span class="literal">true</span></span><br><span class="line">&lt;&gt;          不等于 - 比较两个对象是否不相等            (a &lt;&gt; b) 返回 <span class="literal">true</span></span><br><span class="line">&gt;           大于                                       (a &gt; b) 返回 False</span><br><span class="line">&lt;           小于                                       (a &lt; b) 返回 <span class="literal">true</span></span><br><span class="line">&gt;=          大于等于                                   (a &gt;= b) 返回 False</span><br><span class="line">&lt;=        小于等于                                   (a &lt;= b) 返回 <span class="literal">true</span></span><br></pre></td></tr></table></figure><h3 id="Python赋值运算符"><a href="#Python赋值运算符" class="headerlink" title="Python赋值运算符"></a>Python赋值运算符</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">运算符      描述                        实例</span><br><span class="line">=           简单的赋值运算符            c = a + b 将 a + b 的运算结果赋值为 c</span><br><span class="line">+=          加法赋值运算符              c += a 等效于 c = c + a</span><br><span class="line">-=          减法赋值运算符              c -= a 等效于 c = c - a</span><br><span class="line">*=          乘法赋值运算符              c *= a 等效于 c = c * a</span><br><span class="line">/=          除法赋值运算符              c /= a 等效于 c = c / a</span><br><span class="line">%=          取余赋值运算符              c %= a 等效于 c = c % a</span><br><span class="line">**=         幂赋值运算符                c **= a 等效于 c = c ** a</span><br><span class="line">//=         取整赋值运算符              c //= a 等效于 c = c // a</span><br></pre></td></tr></table></figure><h3 id="Python位运算符"><a href="#Python位运算符" class="headerlink" title="Python位运算符"></a>Python位运算符</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">运算符      描述                        实例</span><br><span class="line">&amp;           按位与运算符</span><br><span class="line">|           按位或运算符</span><br><span class="line">^           按位异或运算符</span><br><span class="line">~           按位取反运算符</span><br><span class="line">&lt;&lt;          左移动运算符</span><br><span class="line">&gt;&gt;          右移动运算符</span><br></pre></td></tr></table></figure><h3 id="Python逻辑运算符"><a href="#Python逻辑运算符" class="headerlink" title="Python逻辑运算符"></a>Python逻辑运算符</h3><p>``` bash<br>运算符      描述                        实例<br>and          布尔”与” - 如果 x 为 False，x and y 返回 False，否则它返回 y 的计算值<br>or           按位或运算符<br>not          按位异或运算符</p><p>未完待续ing…</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;Python运算符&quot;&gt;&lt;a href=&quot;#Python运算符&quot; class=&quot;headerlink&quot; title=&quot;Python运算符&quot;&gt;&lt;/a&gt;Python运算符&lt;/h2&gt;&lt;h3 id=&quot;Python算术运算符&quot;&gt;&lt;a href=&quot;#Python算术运算符&quot; c
-      
-    
-    </summary>
-    
-      <category term="Python" scheme="http://eversea.top/categories/Python/"/>
-    
-    
-      <category term="Python" scheme="http://eversea.top/tags/Python/"/>
     
   </entry>
   
