@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Python基础（一）]]></title>
+    <url>%2FPython%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89.html</url>
+    <content type="text"><![CDATA[变量Python中变量不需要申明，可用”=”赋值后直接使用，”=”左边为变量名，右边为变量值 123456789101112131415161718192021222324252627name = 'eversea'``` Python还允许同时为多个变量赋值```bash a = b = c = 'hello'``` ## 集合Python中，集合和字典的符号都是&#123;&#125;，但是字典&#123;&#125;里面是一个个key:value键值对，定义一个集合```bashs=set('hello')print (s)&#123;'o', 'e', 'l', 'h'&#125;``` 集合有无序、不重复的特点，你第一次和第二次打印同一个集合可能顺序不一样，并且一个集合内不会有一样的元素，集合有以下常用运算### 添加```bashs=set('hello')s.add('a')print (s)&#123;'o', 'e', 'l', 'h', 'a'&#125; 清空1234s=set('hello')s.clear()print (s)set() 拷贝1234s=set('hello')s1=s.copy()print (s1)&#123;'h', 'o', 'e', 'l'&#125; 随机删除123s=set('hello')s1=s.pop()print (s1) 指定删除s=set('hello') s.remove('e') print (s) {'h', 'l', 'o'}]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Python魔法]]></title>
     <url>%2FPython%E9%AD%94%E6%B3%95.html</url>
-    <content type="text"><![CDATA[字符串魔法首字母大写1234test="everSEA"v=test.capitalize()print(v)EverSEA 全部转换为小写，仅支持英文字符转换，.casefold() 支持多种语言1234test="everSEA"v=test.lower()print(v)eversea 全部转换为大写123456789101112131415161718192021test="everSEA"v=test.upper()print(v)EVERSEA``` #### 大小写转换``` bashtest="everSEA"v=test.swapcase()print(v)EVERsea``` #### 判断字符是否全部是大写``` bashtest1="everSEA"test2="EVERSEA"v1=test1.isupper() #islower判断小写v2=test2.isupper()print(v1,v2)FalseTrue 字符串居中显示，指定字符总数并设定空白处填充字符test="ever" v=test.center(20,"*") print(v) ********ever******** 字符串居左test="ever" v=test.ljust(20,"*") print(v) ever**************** 字符串居右test="ever" v=test.rjust(20,"*") print(v) ****************ever 字符串居右并填充0test="ever" v=test.zfill(20,"*") print(v) 0000000000000000ever 统计指定的子序列（有序排列的连续的字符）数量，可指定统计的start，end位置（正整数代表从左的偏移量，负整数代表右侧开始的偏移量）test="everever" v1=test.count("ev") v2=test.count("ev",2,8) print(v1) print(v2) 2 1 判断起始字符test="ever" v1=test.startswith("ev") v2=test.startswith("el") print(v1) print(v2) True False 判断终止字符test="ever" v1=test.endswith("er") v2=test.endswith("el") print(v1) print(v2) True False 找到匹配的子序列输出其位置（从0开始计数），未找到则返回-1test="everever" v1=test.find("ev") v2=test.find("ew") print(v1) print(v2) 0 -1 拼接test1="eversea" test2="*" v=test1.join(test1) print(v) e*v*e*r*s*e*a 去除空白，还可以去除指定内容test="alex" v=test.strip("a") print(v) lex 分割，可以指定分隔符和分割次数test="alexalex" v=test.split("e",1) print(v) ['al', 'xalex'] 获取当前字符串中由几个字符组成test="alexalex" v=len(test) print(v) 8]]></content>
+    <content type="text"><![CDATA[字符串魔法首字母大写123456789101112test="everSEA"v=test.capitalize()print(v)EverSEA``` #### 全部转换为小写，仅支持英文字符转换，.casefold() 支持多种语言``` bashtest="everSEA"v=test.lower()print(v)eversea 全部转换为大写1234test="everSEA"v=test.upper()print(v)EVERSEA 大小写转换123456789101112131415test="everSEA"v=test.swapcase()print(v)EVERsea``` #### 判断字符是否全部是大写``` bashtest1="everSEA"test2="EVERSEA"v1=test1.isupper() #islower判断小写v2=test2.isupper()print(v1,v2)FalseTrue 字符串居中显示，指定字符总数并设定空白处填充字符test="ever" v=test.center(20,"*") print(v) ********ever******** 字符串居左test="ever" v=test.ljust(20,"*") print(v) ever**************** 字符串居右test="ever" v=test.rjust(20,"*") print(v) ****************ever 字符串居右并填充0test="ever" v=test.zfill(20,"*") print(v) 0000000000000000ever 统计指定的子序列（有序排列的连续的字符）数量，可指定统计的start，end位置（正整数代表从左的偏移量，负整数代表右侧开始的偏移量）test="everever" v1=test.count("ev") v2=test.count("ev",2,8) print(v1) print(v2) 2 1 判断起始字符test="ever" v1=test.startswith("ev") v2=test.startswith("el") print(v1) print(v2) True False 判断终止字符test="ever" v1=test.endswith("er") v2=test.endswith("el") print(v1) print(v2) True False 找到匹配的子序列输出其位置（从0开始计数），未找到则返回-1test="everever" v1=test.find("ev") v2=test.find("ew") print(v1) print(v2) 0 -1 拼接test1="eversea" test2="*" v=test1.join(test1) print(v) e*v*e*r*s*e*a 去除空白，还可以去除指定内容test="alex" v=test.strip("a") print(v) lex 分割，可以指定分隔符和分割次数test="alexalex" v=test.split("e",1) print(v) ['al', 'xalex'] 获取当前字符串中由几个字符组成test="alexalex" v=len(test) print(v) 8 $ hexo server gg gg gg]]></content>
       <tags>
         <tag>Python</tag>
       </tags>
