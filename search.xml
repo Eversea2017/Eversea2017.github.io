@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Python基础（二）]]></title>
+    <url>%2FPython%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89.html</url>
+    <content type="text"><![CDATA[函数定义函数123456def test(x): y=3*x+6 return(y)a=test(4)print(a)18 12345def:定义函数的关键字test:函数名():内可定义形参return:定义返回值test():调用运行，此处()内的参数为实际参数 全局变量与局部变量12345678name = 'eversea'def change_name(): name="樊鑫" print(name)change_name()print(name)樊鑫eversea 12def()函数里的name为局部变量，所以在主程序不起作用要想让def()函数里的name变量成为全局变量，只需加 在def()函数里加上 global name 即可。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Python基础（一）]]></title>
     <url>%2FPython%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89.html</url>
-    <content type="text"><![CDATA[变量Python中变量不需要申明，可用”=”赋值后直接使用，”=”左边为变量名，右边为变量值 123456789101112131415161718192021222324252627name = 'eversea'``` Python还允许同时为多个变量赋值```bash a = b = c = 'hello'``` ## 集合Python中，集合和字典的符号都是&#123;&#125;，但是字典&#123;&#125;里面是一个个key:value键值对，定义一个集合```bashs=set('hello')print (s)&#123;'o', 'e', 'l', 'h'&#125;``` 集合有无序、不重复的特点，你第一次和第二次打印同一个集合可能顺序不一样，并且一个集合内不会有一样的元素，集合有以下常用运算### 添加```bashs=set('hello')s.add('a')print (s)&#123;'o', 'e', 'l', 'h', 'a'&#125; 清空1234s=set('hello')s.clear()print (s)set() 拷贝1234s=set('hello')s1=s.copy()print (s1)&#123;'h', 'o', 'e', 'l'&#125; 随机删除123s=set('hello')s1=s.pop()print (s1) 指定删除s=set('hello') s.remove('e') print (s) {'h', 'l', 'o'}]]></content>
+    <content type="text"><![CDATA[变量Python中变量不需要申明，可用”=”赋值后直接使用，”=”左边为变量名，右边为变量值 123456789101112131415161718192021222324252627name = 'eversea'``` Python还允许同时为多个变量赋值```bash a = b = c = 'hello'``` ## 集合Python中，集合和字典的符号都是&#123;&#125;，但是字典&#123;&#125;里面是一个个key:value键值对，定义一个集合```bashs=set('hello')print (s)&#123;'o', 'e', 'l', 'h'&#125;``` 集合有无序、不重复的特点，你第一次和第二次打印同一个集合可能顺序不一样，并且一个集合内不会有一样的元素，集合有以下常用运算### 添加```bashs=set('hello')s.add('a')print (s)&#123;'o', 'e', 'l', 'h', 'a'&#125; 清空1234s=set('hello')s.clear()print (s)set() 拷贝1234s=set('hello')s1=s.copy()print (s1)&#123;'h', 'o', 'e', 'l'&#125; 随机删除123s=set('hello')s1=s.pop()print (s1) 指定删除12345678910111213141516171819s=set('hello')s.remove('e')print (s)&#123;'h', 'l', 'o'&#125; ``` ### 求交集、并集、差集```basha=&#123;'a','b','c',1,2,3&#125;b=&#123;'c',2,3,5&#125;print(a&amp;b)print(a|b)print(a-b)print(b-a)&#123;2, 'c', 3&#125;&#123;1, 2, 'b', 3, 5, 'a', 'c'&#125;&#123;1, 'a', 'b'&#125;&#123;5&#125; 字典(dict)如下定义一个字典，键值之间用:隔开，键值对以,隔开，所有的键值对在{}中 1info = &#123;"k1":"a",'k2':'b'&#125;]]></content>
       <categories>
         <category>Python</category>
       </categories>
