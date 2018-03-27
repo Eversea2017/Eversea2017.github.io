@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[搭建VPN]]></title>
+    <url>%2F%E6%90%AD%E5%BB%BAVPN.html</url>
+    <content type="text"><![CDATA[最近因工作需要使用VPN，工欲善其事必先利其器，想着还是自己弄一个VPN吧，买的梯子又贵还不稳定，遂在阿里云买了一台云服务器，然后自己在这个云服务器上搭建VPN服务，这样自己可以拥有多个VPN账号了，随时随地都可以访问那几个常见的404网站了，下面记录了本次过程 准备工作购买服务器首先先得买一个服务器，我是在阿里云购买的，买的是美东节点的，你要是没有上Google，Facebook等网站的需求，可以买国内节点的就行，毕竟国外节点的云服务器不是很稳定。 远程连接服务器服务器是运行在在云端的，你要使用和配置你的服务器，就必须采取远程连接的方法，这里我使用的是xshell，电脑先下载安装好xshell，然后打开xshell，点击连接，主机填写你的服务器公网IP地址，端口22，然后确定点连接之后输入用户名root输入密码就可以了。 搭建VPN服务过程使用一下命令查看当前购买的ECS美国服务器CentOS 7版本 1# cat /etc/redhat-release 查看当前系统版本 安装ppp、pptpd和iptables 1# yum -y install ppp pptpd iptables 安装完之后可以使用以下命令查看下 1# rpm -qa | grep -E “ppp|pptpd|iptables” 配置ppp DNS信息，编辑options.pptpd 1# vi /etc/ppp/options.pptpd 查找文件中ms-dns关键字，如下 12#ms-dns 10.0.0.1#ms-dns 10.0.0.2 找到之后在下面添加以下两行 12ms-dns 8.8.8.8ms-dns 8.8.8.8 添加两行后，配置结果如下 1234#ms-dns 10.0.0.1#ms-dns 10.0.0.2ms-dns 8.8.8.8ms-dns 4.4.4.4 配置VPN帐号和密码，编辑chap-secrets配置文件 1# vim /etc/ppp/chap-secrets 设置VPN帐号+服务类型+VPN密码+IP，”*”代表所有IP，也可以固定某个IP配置pptpd，编辑options.pptpd配置文件 1# vim /etc/pptpd.conf 查找localip关键字，删去掉localip和remoteip前的#，修改后如下 配置内核支持转发，编辑sysctl.conf配置文件 1# vim /etc/sysctl.conf 在末尾添加如下一行， net.ipv4.ip_forward=1 保存退出并使用以下命令重新加载内核配置项 1# sysctl -p 设置iptables的转发规则 12345# iptables -t nat -F# iptables -t nat -A POSTROUTING -s 192.168.0.234/24 -j SNAT --to 你的服务器的公网IP# iptables -I INPUT -p tcp --dport 1723 -j ACCEPT# iptables -I INPUT -p tcp --dport 47 -j ACCEPT# iptables -I INPUT -p gre -j ACCEPT 重启一下pptpd服务和iptables服务生效 12# systemctl restart iptables# systemctl restart pptpd win7连接VPN看效果右下角打开网络共享中心→设置新的连接和网络→连接到工作区→使用我的internet连接（VPN）→internet地址输入你买的服务器的公网IP，其他的选项不重要随便→输入你前面创建的用户名和密码，然后点连接，显示连接成功就可以了，然后google一下。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Python基础（二）]]></title>
     <url>%2FPython%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89.html</url>
     <content type="text"><![CDATA[函数定义函数123456def test(x): y=3*x+6 return(y)a=test(4)print(a)18 12345def:定义函数的关键字test:函数名():内可定义形参return:定义返回值test():调用运行，此处()内的参数为实际参数 全局变量与局部变量12345678name = 'eversea'def change_name(): name="樊鑫" print(name)change_name()print(name)樊鑫eversea 12def()函数里的name为局部变量，所以在主程序不起作用要想让def()函数里的name变量成为全局变量，只需加 在def()函数里加上 global name 即可。]]></content>
