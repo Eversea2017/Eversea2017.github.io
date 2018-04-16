@@ -127,8 +127,11 @@
 <meta property="og:image" content="http://eversea.top/git教程/branch.png">
 <meta property="og:image" content="http://eversea.top/git教程/新建分支.png">
 <meta property="og:image" content="http://eversea.top/git教程/切换分支.png">
+<meta property="og:image" content="http://eversea.top/git教程/主页.png">
 <meta property="og:image" content="http://eversea.top/git教程/bootstrap项目主页.png">
-<meta property="og:updated_time" content="2018-04-13T16:29:59.238Z">
+<meta property="og:image" content="http://eversea.top/git教程/setting.png">
+<meta property="og:image" content="http://eversea.top/git教程/explore.png">
+<meta property="og:updated_time" content="2018-04-16T15:17:34.755Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git教程">
 <meta name="twitter:description" content="借着做九宫格的机会，顺便写一下Git和GitHub常规操作 安装Git我是在win7下安装的，在这里的Downloads选择Windows，然后就会下载了，下载好之后的是个exe程序，双击它然后按步骤提示一步步安装就可以了，安装成功之后Win+R调出cmd界面，输入git –version命令，如下，说明git已经正确安装在你的电脑里了，你可以正常使用了。 本地创建版本库版本库英文名为“repos">
@@ -458,9 +461,16 @@
 <p>可以看到 master 分支前有个 * 号，即虽然新建了一个 test 的分支，但是当前所在的分支还<br>是在 master 上，如果我们想在 test 分支上进行开发，首先要先切换到 test 分支上才行，所以下一<br>步要切换分支,执行以下命令切换分支，再查看一下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout <span class="built_in">test</span></span><br></pre></td></tr></table></figure></p>
 <img src="/git教程/切换分支.png" title="切换分支">
 <p>可以看到这个时候我们的环境已经切换到test分支了</p>
-<p>##GitHub常用知识<br>以一个开源例子来讲解，链接地址是<a href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener">bootstrap</a>，相信搞web开发的人应该都知道这个开源项目。<br>打开链接，进入到项目主页如下：<br><img src="/git教程/bootstrap项目主页.png" title="bootstrap项目主页"></p>
+<h2 id="GitHub常用知识"><a href="#GitHub常用知识" class="headerlink" title="GitHub常用知识"></a>GitHub常用知识</h2><h3 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h3><p>点击头像下有一个Your profile就到你本账号的主页了，主页的一些个人信息可以在头像下的Settings进行设置<br><img src="/git教程/主页.png" title="主页"><br>以一个开源例子来讲解，链接地址是<a href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener">bootstrap</a>，相信搞web开发的人应该都知道这个开源项目。<br>打开链接，进入到项目主页如下：<br><img src="/git教程/bootstrap项目主页.png" title="bootstrap项目主页"></p>
 <h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><p>项目的代码文件，通常里面有一个README.md文件，用来介绍该项目的</p>
+<h3 id="Watch"><a href="#Watch" class="headerlink" title="Watch"></a>Watch</h3><p>可以理解为观看的意思，相当于微博里面的关注，当这个项目有动态变化时，会通知你</p>
+<h3 id="Star"><a href="#Star" class="headerlink" title="Star"></a>Star</h3><p>Star的意思是给这个项目打星，后面跟着的数字是打星的人数</p>
+<h3 id="Fork"><a href="#Fork" class="headerlink" title="Fork"></a>Fork</h3><p>举个例子，A开源了一个项目mata，B觉得这个项目挺好的，就Fork了meta，并将其运用到自己的项目当中</p>
 <h3 id="Issues"><a href="#Issues" class="headerlink" title="Issues"></a>Issues</h3><p>Issues 代表该项目的一些问题或者bug<br><br>Open意思是目前还有332个问题还没解决，顾名思义，Closed意思是已经解决了<br>当然我们也可以点击右上角New issue添加Title写下你的问题。</p>
+<h3 id="Pull-requests"><a href="#Pull-requests" class="headerlink" title="Pull requests"></a>Pull requests</h3><p>简称PR，通俗的解释相当于A做了一个项目，B去fork下来，然后做了些修改，再PR给A,当然A接不接受你的PR那另当别论了。</p>
+<h3 id="Wiki"><a href="#Wiki" class="headerlink" title="Wiki"></a>Wiki</h3><p>相当于给你的项目写一份说明书，给别人看得明白而已</p>
+<h3 id="Settings"><a href="#Settings" class="headerlink" title="Settings"></a>Settings</h3><p>在你自己账号下的仓库会有一个Settings，就是你仓库的设置，比如GitHub Pages，Setting界面还可以删除该仓库，在底下Danger Zone<br><img src="/git教程/setting.png" title="setting"></p>
+<p>当然我觉得GitHub最大的好处是可以当搜索用，当你做项目是需要用到某个架构时，你可以到GitHub上搜一搜，也许别人已经做好了，这个时候你只要fork下来就可以为你所用了，不用担心版权问题，因为发布在GitHub上的全是开源项目，还可以通过Explore看下最近流行的项目。<br><img src="/git教程/explore.png" title="explore"></p>
 
       
     </div>
@@ -733,7 +743,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Git"><span class="nav-number">1.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本地创建版本库"><span class="nav-number">2.</span> <span class="nav-text">本地创建版本库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加远程库"><span class="nav-number">3.</span> <span class="nav-text">添加远程库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub-Pages"><span class="nav-number">4.</span> <span class="nav-text">GitHub Pages</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更新代码"><span class="nav-number">5.</span> <span class="nav-text">更新代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些Git常用命令"><span class="nav-number">6.</span> <span class="nav-text">一些Git常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Code"><span class="nav-number">6.1.</span> <span class="nav-text">Code</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Issues"><span class="nav-number">6.2.</span> <span class="nav-text">Issues</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Git"><span class="nav-number">1.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本地创建版本库"><span class="nav-number">2.</span> <span class="nav-text">本地创建版本库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加远程库"><span class="nav-number">3.</span> <span class="nav-text">添加远程库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub-Pages"><span class="nav-number">4.</span> <span class="nav-text">GitHub Pages</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更新代码"><span class="nav-number">5.</span> <span class="nav-text">更新代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些Git常用命令"><span class="nav-number">6.</span> <span class="nav-text">一些Git常用命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub常用知识"><span class="nav-number">7.</span> <span class="nav-text">GitHub常用知识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#主页"><span class="nav-number">7.1.</span> <span class="nav-text">主页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Code"><span class="nav-number">7.2.</span> <span class="nav-text">Code</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Watch"><span class="nav-number">7.3.</span> <span class="nav-text">Watch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Star"><span class="nav-number">7.4.</span> <span class="nav-text">Star</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Fork"><span class="nav-number">7.5.</span> <span class="nav-text">Fork</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Issues"><span class="nav-number">7.6.</span> <span class="nav-text">Issues</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Pull-requests"><span class="nav-number">7.7.</span> <span class="nav-text">Pull requests</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Wiki"><span class="nav-number">7.8.</span> <span class="nav-text">Wiki</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Settings"><span class="nav-number">7.9.</span> <span class="nav-text">Settings</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -785,7 +795,7 @@
 -->
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共6.6k字</span>
+  <span class="post-count">博客全站共7.0k字</span>
 </div>
 
 
