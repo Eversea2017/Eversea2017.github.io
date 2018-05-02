@@ -62,29 +62,6 @@
   </entry>
   
   <entry>
-    <title>HTML（一）</title>
-    <link href="http://eversea.top/HTML%EF%BC%88%E4%B8%80%EF%BC%89.html"/>
-    <id>http://eversea.top/HTML（一）.html</id>
-    <published>2018-04-04T22:06:05.000Z</published>
-    <updated>2018-04-06T15:25:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="文档设置标记"><a href="#文档设置标记" class="headerlink" title="文档设置标记"></a>文档设置标记</h2><h3 id="格式标记"><a href="#格式标记" class="headerlink" title="格式标记"></a>格式标记</h3><h3 id="文本标记"><a href="#文本标记" class="headerlink" title="文本标记"></a>文本标记</h3><h4 id="标题标记"><a href="#标题标记" class="headerlink" title="标题标记"></a>标题标记</h4><p>共有六个级别，为1-6，不同级别对应显示大小不同的标题，h1最大，h6最小</p><h4 id="字体设置标记"><a href="#字体设置标记" class="headerlink" title="字体设置标记"></a>字体设置标记</h4><p>设置字体的格式，有三个常用属性<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">size，定义字体大小，取值范围是1-7，浏览器默认是3，&lt;font size=<span class="string">"3"</span>&gt;</span><br><span class="line">color，定义字体颜色，&lt;font clore=<span class="string">"red"</span>&gt;</span><br><span class="line">face，定义字体，&lt;font face=<span class="string">"微软雅黑"</span>&gt;</span><br></pre></td></tr></table></figure></p><h4 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h4><p>粗体字<b><br>斜体字<i><br>文字下标字体标记<sub><br>文字上标字体标记<sup><br>下划线字体标记<u></u></sup></sub></i></b></p><h2 id="图像标记"><a href="#图像标记" class="headerlink" title="图像标记"></a>图像标记</h2>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;文档设置标记&quot;&gt;&lt;a href=&quot;#文档设置标记&quot; class=&quot;headerlink&quot; title=&quot;文档设置标记&quot;&gt;&lt;/a&gt;文档设置标记&lt;/h2&gt;&lt;h3 id=&quot;格式标记&quot;&gt;&lt;a href=&quot;#格式标记&quot; class=&quot;headerlink&quot; title=&quot;格
-      
-    
-    </summary>
-    
-    
-      <category term="HTML" scheme="http://eversea.top/tags/HTML/"/>
-    
-  </entry>
-  
-  <entry>
     <title>HTML</title>
     <link href="http://eversea.top/HTML.html"/>
     <id>http://eversea.top/HTML.html</id>
